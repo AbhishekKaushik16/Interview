@@ -8,7 +8,6 @@ const BarChart = () =>{
     let xAxis = [];
     let yAxis = [];
     let newData = {}
-
     WineData.forEach(data => {
       let alcoholType = data["Alcohol"]
       let malicAcid = data["Malic Acid"];
